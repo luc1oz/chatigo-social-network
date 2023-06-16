@@ -1,0 +1,122 @@
+
+.edit-profile-block{
+    margin: 100px auto;
+}
+
+@media(min-width: 1100px){
+
+    .edit-block{
+        width: 500px;
+    }
+
+    .page-menu-block{
+        width: 200px;
+    }
+
+    .settings-page-block{
+        width: 200px;
+    }
+
+    .edit-profile-block{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width: 1100px){
+    .edit-block{
+        width: 90%;
+        order: 1;
+    }
+
+    .page-menu-block{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .settings-page-block{
+        width: 90%;
+        order: 0;
+    }
+
+    .edit-profile-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.ed-block{
+    background-color: var(--block-color);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--text-color);
+}
+
+.el-block{
+    background-color: var(--block-color);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--text-color);
+}
+
+.send-button-sett{
+    color: var(--text-color);
+    background-color: var(--set-button-color);
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.send-button-sett:enabled{
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+.send-button-sett:hover:enabled{
+    background-color: var(--block-color);
+}
+
+.send-button-sett:active:enabled{
+    background-color: var(--block-color);
+}
+
+.send-button-img{
+    color: var(--set-button-text-color);
+    background-color: var(--set-button-color);
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.send-button-img:enabled{
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+.send-button-img:hover:enabled{
+    background-color: var(--text-color);
+}
+
+.send-button-img:active:enabled{
+    background-color: var(--text-color);
+}
+
+.errMessage-p{
+    color: red;
+}
+
+.succMessage-p{
+    color: green;
+}
+
+.dis:disabled{
+    border: none;
+}

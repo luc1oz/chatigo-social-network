@@ -1,0 +1,52 @@
+.news-block{
+    margin: 100px auto;
+}
+
+
+
+@media(min-width: 1100px){
+
+    .posts-block{
+        width: 500px;
+    }
+
+    .page-menu-block{
+        width: 200px;
+        position: sticky;
+        top: 100px;
+        align-self: flex-start;
+    }
+
+    .help-center-block{
+        width: 200px;
+    }
+
+}
+
+@media(max-width: 1100px){
+    .posts-block{
+        width: 90%;
+    }
+
+    .page-menu-block{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .help-center-block{
+        display: none;
+    }
+}
+
+.text-color{
+    color: var(--text-color);
+}
+
+.no-posts-block{
+    background-color: var(--block-color);
+    padding: 15px;
+    position: relative;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    color: var(--text-color)
+}

@@ -1,0 +1,123 @@
+.info-block{
+    background-color: var(--block-color);
+    padding: 15px;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+.text-color{
+    color: var(--text-color);
+    margin: 0;
+}
+
+@media(min-width: 500px){
+
+    .main-user-image{
+    width: 40%;
+    aspect-ratio: 1 / 1;
+}
+}
+
+@media(max-width: 500px){
+    
+    .main-user-image{
+        width: 100%;
+        aspect-ratio: 1 / 1;
+    }
+}
+
+.relation-buttons{
+    position: absolute;
+    color: #CCCCCC;
+    bottom: 10px;
+    right: 10px;
+}
+
+.message-friend-button{
+    color: black;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.message-friend-button:hover{
+    background-color: #dfdede;
+}
+
+.message-friend-button:active{
+    background-color: #dfdede;
+}
+
+.delete-friend-button{
+    color: black;
+    background-color: #FF7777;
+    border: none;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.delete-friend-button:hover{
+    background-color: #fd6666;
+}
+
+.delete-friend-button:active{
+    background-color: #fd6666;
+}
+
+.add-friend-button{
+    color: black;
+    background-color: #73ABFF;
+    border: none;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.add-friend-button:hover{
+    background-color: #60a0ff;
+}
+
+.add-friend-button:active{
+    background-color: #60a0ff;
+}
+
+.ignore-friend-button{
+    color: black;
+    background-color: #FF7777;
+    border: none;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.ignore-friend-button:hover{
+    background-color: #fd6666;
+}
+
+.ignore-friend-button:active{
+    background-color: #fd6666;
+}
+
+.send-request-button{
+    color: black;
+    background-color: #77FFAD;
+    border: none;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.send-request-button:hover{
+    background-color: #5efa9c;
+}
+
+.send-request-button:active{
+    background-color: #5efa9c;
+}

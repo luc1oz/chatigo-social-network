@@ -1,0 +1,23 @@
+
+.header-profile-elem{
+    background-color: #18191A;
+    /* background-color: #F0F2F6; */
+    color: #FFFFFF;
+    border: none;
+    /* box-shadow: 0px 4px #1d1d20; */
+}
+
+.header-profile-elem:hover{
+    /* background-color: #2c2d2e; */
+    background-color: #3A3B3C;
+}
+
+.header-profile-elem:active{ 
+    /* background-color: #2c2d2e;   */
+    background-color: #3A3B3C;
+} 
+
+.header-profile-elem:focus{
+    background-color: #3A3B3C;
+    outline: none;
+}

@@ -1,0 +1,61 @@
+.message-block{
+    background-color: var(--block-color);
+    padding: 10px;
+    color: var(--text-color);
+    border: none;
+
+}
+
+.message-block-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.mess-img{
+    max-width: 75%;
+}
+
+/* .message-friend-button{
+    color: black;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+} */
+
+/* .chat-block:hover{
+    background-color: #3A3B3C;
+}
+
+.chat-block:active{
+    background-color: #3A3B3C;
+} */
+
+/* .delete-friend-button{
+    color: black;
+    background-color: #FF7777;
+    border: none;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.delete-friend-button:hover{
+    background-color: #fd6666;
+}
+
+.delete-friend-button:active{
+    background-color: #fd6666;
+} */
+
+.message-block-nw{
+    background-color: var(--button-hover);
+    padding: 10px;
+    color: var(--text-color);
+    border: none;
+
+}

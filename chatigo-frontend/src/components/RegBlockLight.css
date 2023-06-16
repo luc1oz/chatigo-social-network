@@ -1,0 +1,71 @@
+.button-half{
+    width: 50%;
+}
+
+@media(min-width: 600px){
+
+    .reg-block{
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #FFFFFF;
+        grid-gap: 8px;
+        box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    }
+
+}
+
+@media(max-width: 600px){
+    .reg-block{
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #FFFFFF;
+        grid-gap: 8px;
+        box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    }
+}
+
+.text-color{
+    color: #323232;
+}
+
+.input-field{
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 10px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    border: 1px solid #D9D9D9;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.button-field{
+    height: calc(2.25rem + 10px);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: gray;
+    opacity: 1; /* Firefox */
+}
+
+.select-field{
+    appearance: none;
+    background: url(../ArrowBlack.svg) no-repeat right;
+    background-position-x: calc(100% - 13px);
+}
+
+

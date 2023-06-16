@@ -1,0 +1,121 @@
+.post-block{
+    background-color: var(--block-color);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+.post-avatar{
+    width: 50px;
+    height: 50px;
+}
+
+.text-color-post{
+    color: var(--text-color);
+    margin: 0;
+}
+
+.unliked-button{
+    color: var(--text-color);
+    background-color: var(--button-hover);
+    border: none;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.unliked-button:hover{
+    background-color: var(--background-color);
+}
+
+.unliked-button:active{
+    background-color: #fe9d9d;
+}
+
+.liked-button{
+    color: white;
+    background-color: #e97c7c;
+    border: none;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.liked-button:hover{
+    background-color: #d36464;
+}
+
+.liked-button:active{
+    background-color: #797575;
+}
+
+
+.svg-color{
+    color: var(--text-color);
+}
+
+.comment-button{
+    color: var(--text-color);
+    background-color: var(--button-hover);
+    border: none;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.comment-button:hover{
+    background-color: var(--background-color);
+}
+
+.comment-button:active{
+    background-color: var(--background-color);
+}
+
+.comment-avatar{
+    width: 50px;
+    height: 50px;
+}
+
+.send-button:disabled{
+    box-shadow: none;
+}
+
+.send-button:hover:disabled{
+    background-color: var(--block-color);
+    
+}
+.send-button:disabled{
+    background-color: var(--block-color);
+}
+
+.user-button{
+    background-color: var(--block-color);
+    border: none;
+    padding: 0;
+}
+
+.delete-button-post{
+    color: var(--text-color);
+    background-color: var(--button-hover);
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.delete-button-post{
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+.delete-button-post:hover{
+    background-color: var(--background-color);
+}
+
+.delete-button-post:active{
+    background-color: var(--background-color);
+}

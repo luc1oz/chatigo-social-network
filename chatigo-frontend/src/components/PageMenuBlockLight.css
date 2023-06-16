@@ -1,0 +1,52 @@
+.menu-block{
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+.menu-button{
+    color: 323232;
+    background-color: #FFFFFF;
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.menu-button:hover{
+    background-color: #E6E6E6;
+}
+
+@media(min-width: 1100px){
+    .menu-block{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        z-index: 10000000000;
+    }
+
+    /* .menu-button-text{
+    } */
+
+}
+
+@media(max-width: 1100px){
+    .menu-block{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        z-index: 10000000000;
+    }
+
+    .menu-button-text{
+        display: none;
+    }
+
+    .menu-button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}

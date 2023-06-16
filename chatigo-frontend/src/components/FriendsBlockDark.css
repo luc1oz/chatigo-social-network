@@ -1,0 +1,41 @@
+.friends-block{
+    margin: 100px auto;
+}
+
+@media(min-width: 1100px){
+
+    .friends-search-block{
+        width: 500px;
+    }
+
+    .page-menu-block-friends{
+        
+        width: 200px;
+        position: sticky;
+        top: 100px;
+        align-self: flex-start;
+    }
+
+    .help-center-block{
+        width: 200px;
+    }
+
+}
+
+@media(max-width: 1100px){
+    .friends-search-block{
+        width: 90%;
+    }
+
+    .page-menu-block-friends{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .help-center-block{
+        display: none;
+    }
+
+}
+    

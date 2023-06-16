@@ -1,0 +1,111 @@
+.wu-block{
+    background-color: var(--block-color);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+.logo-img{
+    width: 50px;
+    height: 50px;
+}
+
+.send-button-post{
+    color: var(--text-color);
+    background-color: var(--button-hover);
+    border: none;
+    width: 50px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.send-button-post:enabled{
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+
+.send-button-post:hover:enabled{
+    background-color: var(--background-color);
+}
+
+.send-button-post:active:enabled{
+    background-color: var(--background-color);
+}
+
+.send-button-post:disabled{
+    box-shadow: none;
+    cursor: default; 
+}
+
+.send-button-post:hover:disabled{
+    background-color: var(--block-color);
+    cursor: default; 
+    
+}
+.send-button-post:disabled{
+    background-color: var(--block-color);
+    cursor: default; 
+}
+
+.file-input{
+    display: none;
+}
+
+.send-button-file{
+    color: var(--text-color);
+    background-color: var(--button-hover);
+    border: none;
+    width: 55px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.send-button-file{
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+.send-button-file:hover{
+    background-color: var(--background-color);
+}
+
+.send-button-file:active{
+    background-color: var(--background-color);
+}
+
+.post-img-block{
+    position: relative;
+}
+
+.delete-button-file{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: var(--text-color);
+    background-color: var(--button-hover);
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.delete-button-file{
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+.delete-button-file:hover{
+    background-color: var(--background-color);
+}
+
+.delete-button-file:active{
+    background-color: var(--background-color);
+}
+
+.modal-load-image .modal-content{
+    height: 80vh;
+    max-height: none !important;
+}
+    

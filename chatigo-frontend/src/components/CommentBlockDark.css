@@ -1,0 +1,9 @@
+.comment-avatar{
+    width: 50px;
+    height: width;
+}
+
+.text-color{
+    color: var(--text-color);
+    margin: 0;
+}

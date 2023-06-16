@@ -1,0 +1,122 @@
+.post-block{
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+.post-avatar{
+    width: 50px;
+    height: 50px;
+}
+
+.text-color-post{
+    color: #323232;
+    margin: 0;
+}
+
+.unliked-button{
+    color: #323232;
+    background-color: #cdcdcd;
+    border: none;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.unliked-button:hover{
+    background-color: #acabab;
+}
+
+.unliked-button:active{
+    background-color: #fe9d9d;
+}
+
+.liked-button{
+    color: white;
+    background-color: #e97c7c;
+    border: none;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.liked-button:hover{
+    background-color: #d36464;
+}
+
+.liked-button:active{
+    background-color: #797575;
+}
+
+
+.svg-color{
+    color: white;
+}
+
+.comment-button{
+    color: #323232;
+    background-color: #cdcdcd;
+    border: none;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.comment-button:hover{
+    background-color: #acabab;
+}
+
+.comment-button:active{
+    background-color: #acabab;
+}
+
+.comment-avatar{
+    width: 50px;
+    height: 50px;
+}
+
+.send-button-post{
+    color: #323232;
+    background-color: #E6E6E6;
+    border: none;
+    width: 50px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.send-button-post:enabled{
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+
+.send-button-post:hover:enabled{
+    background-color: #cdcdcd;
+}
+
+.send-button-post:active:enabled{
+    background-color: #cdcdcd;
+}
+
+.send-button-post:disabled{
+    box-shadow: none;
+}
+
+.send-button-post:hover:disabled{
+    background-color: white;
+    
+}
+.send-button-post:disabled{
+    background-color: white;
+}
+
+.user-button{
+    background-color: white;
+    border: none;
+    padding: 0;
+}

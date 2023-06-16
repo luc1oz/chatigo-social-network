@@ -1,0 +1,122 @@
+
+.wu-block{
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+.logo-img{
+    width: 50px;
+    height: 50px;
+}
+
+.send-button-post{
+    color: #323232;
+    background-color: #E6E6E6;
+    border: none;
+    width: 50px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.send-button-post:enabled{
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+
+.send-button-post:hover:enabled{
+    background-color: #cdcdcd;
+}
+
+.send-button-post:active:enabled{
+    background-color: #cdcdcd;
+}
+
+.send-button-post:disabled{
+    box-shadow: none;
+    cursor: default; 
+}
+
+.send-button-post:hover:disabled{
+    background-color: white;
+    cursor: default; 
+    
+}
+.send-button-post:disabled{
+    background-color: white;
+    cursor: default; 
+}
+
+.file-input{
+    display: none;
+}
+
+.send-button-file{
+    color: #323232;
+    background-color: #E6E6E6;
+    border: none;
+    width: 55px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.send-button-file{
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+.send-button-file:hover{
+    background-color: #cdcdcd;
+}
+
+.send-button-file:active{
+    background-color: #cdcdcd;
+}
+
+.post-img-block{
+    position: relative;
+}
+
+.delete-button-file{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #323232;
+    background-color: #E6E6E6;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.delete-button-file{
+    box-shadow: 0px 3px 10px  rgb(0, 0, 0, 0.25);
+}
+
+.delete-button-file:hover{
+    background-color: #cdcdcd;
+}
+
+.delete-button-file:active{
+    background-color: #cdcdcd;
+}
+
+.input-field{
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 10px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: white;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
